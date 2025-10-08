@@ -1,0 +1,106 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #000000;
+    }
+    
+    .card {
+      background-image: url('image copy.png'); 
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 200px rgb(1, 1, 145);
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .card-header {
+      background-image: url();
+      height: 80px;
+    }
+    
+    .profile-img {
+      margin-top: -40px;
+    }
+    
+    .profile-img img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 5px solid #3b83f600;
+    }
+    
+    .card-body h2 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+      color: aliceblue;
+    }
+    
+    .card-body p {
+      font-size: 14px;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    
+    .social a {
+      display: inline-block;
+      margin: 0 6px;
+      font-size: 18px;
+      color: #ffffff;
+      transition: 0.3s;
+    }
+    
+    .social a:hover {
+      color: #297bff;
+    }
+    
+    .buttons {
+      margin: 15px 0;
+    }
+    
+    button {
+      border: none;
+      outline: none;
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+      margin: 5px;
+      transition: 0.3s;
+    }
+    
+    .follow {
+      background: #3b82f6;
+      color: #fff;
+    }
+    
+    .follow:hover {
+      background: #0048ff;
+    }
+    
+    .message {
+      background: #004cffad;
+      color: #fffdfd;
+    }
+    
+    .message:hover {
+      background: #0066ff;
+    }
+    
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      padding: 12px 0;
+      border-top: 1px solid #ffffff;
+      font-size: 14px;
+      color: #fbfbfb;
+    }
+    

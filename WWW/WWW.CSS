@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+body {
+  background-image: url(deer-mountain-sunset-minimalist-qn5tx0056jv9t8mu.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background: rgb(234, 170, 226);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px;
+  padding: 20px;
+  width: 800px;
+  max-width: 90%;
+}
+.calculator {
+  display: flex;
+  gap: 20px;
+}
+.input-section {
+  flex: 1;
+}
+label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #092224;
+  font-weight: bold;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+}
+#tip-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.tip-options button {
+  background: #00474b;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tip-options input {
+  background: #ffffff;
+  color: #00474b;
+  text-align: center;
+}
+.result-section {
+  flex: 1;
+  background: #00474b;
+  border-radius: 15px;
+  padding: 30px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.row h2 {
+  color: #26c2ae;
+  font-size: 32px;
+}
+.reset {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background: #26c2ae;
+  color: #00474b;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#cus {
+  background-color: #746565a2;
+  color: #000000;
+}
